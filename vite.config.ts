@@ -10,5 +10,5 @@ export default defineConfig({
     environment: 'jsdom',
     setupFiles: './src/test/setup.ts',
   },
-  base: '/personal-website/',
+  base: '/personal-website-template/',
 })
