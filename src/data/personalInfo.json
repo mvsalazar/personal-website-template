@@ -1,193 +1,103 @@
 {
-  "name": "Melvin Salazar",
-  "peferredName": null,
-  "title": "Software Engineering Leader",
-  "email": null,
-  "phone": null,
-  "location": "San Francisco Bay Area, CA",
+  "name": "Jordan Winters",
+  "preferredName": "Jordan",
+  "title": "Full Stack Developer",
+  "email": "jordan.winters@example.com",
+  "phone": "+1 (555) 987-6543",
+  "location": "Austin, TX",
   "linkedIn": {
-    "url": "https://linkedin.com/in/mel-salazar",
-    "username": "mel-salazar"
+    "url": "https://linkedin.com/in/jordan-winters",
+    "username": "jordan-winters"
   },
   "bio": {
-    "summary": "Engineering leader with 8+ years of experience delivering scalable customer support systems. Led a full-stack team, shipping the Help Center platform at LinkedIn, GPT-powered assistants, and CRM-integrated case management tools used by millions of users. Skilled in cross-functional leadership, hiring, coaching, and driving impact across product, design, and support operations.",
+    "summary": "Full stack developer with a passion for building responsive web applications and scalable backend systems. Experienced in delivering high-quality code, collaborating across teams, and integrating modern web technologies.",
     "description": [
-      "As a leader I have managed and mentored a diverse team of full-stack engineers, supporting career development, code quality, and technical growth.",
-      "I have coached engineers through review cycles and performance improvement plans.",
-      "I have led the engineering for LinkedIn’s primary user support platform, impacting 1B+ users. This included, the Help Center, GPT powered assistants, real-time Live Chat integrations, intelligent routing, and personalized case flows to enhance self-service and case deflection.",
-      "I have directed a high-performing team of ICs while driving cross-functional initiatives in collaboration with PM, design, datascience, and CRM partners."
+      "Developed and maintained applications across the full stack, from database to user interface.",
+      "Collaborated with designers and product managers to deliver features on time and to spec.",
+      "Optimized backend APIs for performance, scalability, and security.",
+      "Mentored junior developers and contributed to code reviews, ensuring best practices."
     ]
   },
-  "languages": [
-    "English",
-    "Spanish"
-  ],
+  "languages": ["English", "French"],
   "interests": [
-    "Engineering leadership roles",
-    "AI/LLM integration projects",
-    "Support automation solutions",
-    "CRM integration consulting",
-    "Technical mentoring opportunities"
+    "Web application development",
+    "Open source contributions",
+    "Cloud-native architectures",
+    "API design and integration",
+    "Developer tooling"
   ],
   "experiences": [
     {
-      "title": "Senior Software Engineer",
-      "company": "LinkedIn",
-      "location": "Sunnyvale, CA",
-      "duration": "Oct 2024 – May 2025",
+      "title": "Senior Full Stack Developer",
+      "company": "TechNova Solutions",
+      "location": "Remote",
+      "duration": "Jan 2023 – Present",
       "description": [
-        "Delivered backend enhancements in Java and Scala to increase support tooling reliability and uptime",
-        "Designed intelligent case routing logic to personalize support workflows",
-        "Partnered with PM and CRM stakeholders to launch high-impact features, including AI-powered content summarization and semantic search to enhance user content delivery",
-        "Ensured operational excellence via on-call rotations, real-time monitoring, and fast incident resolution"
+        "Designed and built microservices to support high-traffic SaaS applications.",
+        "Implemented CI/CD pipelines to streamline deployments.",
+        "Integrated third-party APIs for payments, authentication, and analytics.",
+        "Led frontend migration from legacy framework to React and TypeScript."
       ],
-      "technologies": [
-        "Java",
-        "Scala",
-        "CRM Integration",
-        "Real-time Monitoring",
-        "Incident Resolution"
-      ]
+      "technologies": ["React", "TypeScript", "Node.js", "PostgreSQL", "Docker"]
     },
     {
-      "title": "Software Engineering Manager",
-      "company": "LinkedIn",
-      "location": "Sunnyvale, CA",
-      "duration": "Aug 2022 – Oct 2024",
+      "title": "Full Stack Developer",
+      "company": "BluePeak Digital",
+      "location": "Austin, TX",
+      "duration": "Aug 2020 – Dec 2022",
       "description": [
-        "Managed a diverse team, providing mentorship, coaching, and career guidance",
-        "Owned LinkedIn's Help Center and user support surface",
-        "Delivered offline webform flows, curated help content, and real-time Live Chat",
-        "Launched GPT-powered virtual assistants to enhance automation and reduce case volumes",
-        "Led cross-functional collaboration with product, design, data science, and CRM teams"
+        "Built custom dashboards and reporting tools for enterprise clients.",
+        "Developed RESTful and GraphQL APIs to serve multiple frontend apps.",
+        "Implemented real-time features using WebSockets.",
+        "Optimized queries and indexes to improve database performance."
       ],
-      "technologies": [
-        "Team Leadership",
-        "GPT Integration",
-        "Live Chat",
-        "A/B Testing",
-        "Cross-functional Collaboration"
-      ]
-    },
-    {
-      "title": "Senior Software Engineer",
-      "company": "LinkedIn",
-      "location": "Sunnyvale, CA",
-      "duration": "Oct 2019 – Aug 2022",
-      "description": [
-        "Built and scaled CRM integrations (Oracle, Salesforce, Dynamics)",
-        "Developed REST APIs and A/B tested backend performance",
-        "Interfaced APIs with different Line of Business services to deliver a more personalized support experience",
-        "Develop and executed plan to migrate externally hosted chat clients to an all-in-one in house chat solution",
-        "Worked cross-functionally to reduce support friction and improve response times"
-      ],
-      "technologies": [
-        "Oracle",
-        "Salesforce",
-        "Microsoft Dynamics",
-        "REST APIs",
-        "A/B Testing"
-      ]
+      "technologies": ["Vue.js", "Node.js", "GraphQL", "MySQL", "AWS"]
     },
     {
       "title": "Software Engineer",
-      "company": "LinkedIn",
-      "location": "Sunnyvale, CA",
-      "duration": "Aug 2017 – Oct 2019",
+      "company": "CloudHaven",
+      "location": "Dallas, TX",
+      "duration": "Jun 2018 – Jul 2020",
       "description": [
-        "Developed Help Center features using Java, TypeScript, JavaScript, Ember.js, and Framptom.js",
-        "Improved case creation UX and reduced latency",
-        "Enhanced content discoverability to increase user engagement"
+        "Created mobile-first UI components with reusable styling.",
+        "Implemented authentication and authorization workflows.",
+        "Worked closely with QA to improve automated test coverage.",
+        "Refactored legacy codebases for better maintainability."
       ],
-      "technologies": [
-        "Java",
-        "TypeScript",
-        "JavaScript",
-        "Ember.js",
-        "Framptom.js"
-      ]
-    },
-    {
-      "title": "Tools Engineer",
-      "company": "LinkedIn",
-      "location": "Sunnyvale, CA",
-      "duration": "Aug 2016 – Aug 2017",
-      "description": [
-        "Maintained and enhanced the Oracle Service Cloud (RightNow) Customer Portal, serving millions of monthly visitors",
-        "Collaborated in building and monitoring data hygiene and maintenance tools for large-scale production DBs, improving integrity and query performance",
-        "Built tools for workflows that integrated CRM data with member data for bug tracking using PHP, MySQL and AngularJS",
-        "Assisted in the migration of vanilla PHP code to Laravel Framework, and deployment pipelines using GitLab."
-      ],
-      "technologies": [
-        "Oracle Service Cloud",
-        "CI/CD",
-        "Database Optimization",
-        "Multi-language Builds"
-      ]
+      "technologies": ["Angular", "Java", "Spring Boot", "MongoDB", "Kubernetes"]
     }
   ],
   "projects": [
     {
-      "title": "LinkedIn Help Center Platform",
-      "description": "Led the development of LinkedIn's comprehensive user support platform, including Help Center, GPT-powered virtual assistants, and real-time Live Chat integrations.",
+      "title": "Project Atlas",
+      "description": "A project management web app with real-time collaboration, task tracking, and integrated chat.",
       "image": "/api/placeholder/400/250",
-      "technologies": [
-        "Java",
-        "Scala",
-        "GPT Integration",
-        "Live Chat",
-        "CRM"
-      ],
-      "features": [
-        "GPT-powered assistants",
-        "Real-time Live Chat",
-        "Intelligent routing",
-        "Case management",
-        "A/B testing"
-      ],
-      "github": "",
-      "live": "https://www.linkedin.com/help",
-      "icon": "FiUsers"
+      "technologies": ["React", "Firebase", "TailwindCSS", "Node.js"],
+      "features": ["Real-time updates", "Drag-and-drop task boards", "Integrated messaging", "User roles and permissions"],
+      "github": "https://github.com/example/project-atlas",
+      "live": "https://atlas-app.example.com",
+      "icon": "FiLayers"
     },
     {
-      "title": "CRM Integration Platform",
-      "description": "Built and scaled comprehensive CRM integrations connecting Oracle Service Cloud, Salesforce, and Microsoft Dynamics with LinkedIn's support ecosystem.",
+      "title": "ShopEase",
+      "description": "E-commerce platform with product recommendations, secure checkout, and admin dashboards.",
       "image": "/api/placeholder/400/250",
-      "technologies": [
-        "Java",
-        "Oracle",
-        "Salesforce",
-        "Microsoft Dynamics",
-        "REST APIs"
-      ],
-      "features": [
-        "Multi-CRM support",
-        "Data synchronization",
-        "Performance optimization"
-      ],
-      "github": "",
-      "live": "",
-      "icon": "FiTrendingUp"
+      "technologies": ["Next.js", "Stripe API", "PostgreSQL", "Prisma"],
+      "features": ["Personalized recommendations", "Order tracking", "Inventory management", "Responsive design"],
+      "github": "https://github.com/example/shopease",
+      "live": "https://shopease.example.com",
+      "icon": "FiShoppingCart"
     },
     {
-      "title": "Bug Tracking Tool",
-      "description": "Developed an intelligent case analytics tool. Integrated categorization data from Oracle Service Cloud (formerly known as RightNow). The Operations organization used this tool to surface trend issues that could potentially identify bugs based on the trends.",
+      "title": "TravelMate",
+      "description": "Travel planning app that suggests itineraries, finds local attractions, and syncs across devices.",
       "image": "/api/placeholder/400/250",
-      "technologies": [
-        "AngularJs",
-        "PHP",
-        "MySQL"
-      ],
-      "features": [
-        "CRM Data Integration",
-        "Data automation workflows",
-        "Bug monitoring",
-        "Data analytics"
-      ],
-      "github": "",
-      "live": "",
-      "icon": "AiFillBug"
+      "technologies": ["Vue.js", "Express.js", "MongoDB", "Mapbox API"],
+      "features": ["Interactive maps", "Offline mode", "Custom itineraries", "Share trips with friends"],
+      "github": "https://github.com/example/travelmate",
+      "live": "https://travelmate.example.com",
+      "icon": "FiMap"
     }
   ],
-  "showContactMe": false
+  "showContactMe": true
 }
