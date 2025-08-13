@@ -2,6 +2,7 @@ import { useState, useEffect, useMemo } from 'react';
 import { motion } from 'framer-motion';
 import { FiMenu, FiX, FiSun, FiMoon } from 'react-icons/fi';
 import { useDarkMode } from '../hooks/useDarkMode';
+import personalInfo from '../data/personalInfo.json';
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -73,7 +74,10 @@ const Navigation = () => {
               onClick={() => scrollToSection('#hero')}
               className="text-2xl font-bold text-slate-900 dark:text-white hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
             >
-              MS
+              {personalInfo.name
+                .split(" ")
+                .map(word => word.slice(0, 1).toUpperCase())
+                .join("")}
             </button>
           </motion.div>
 
