@@ -13,6 +13,10 @@ For faster setup, you can give the template `JSON` and your resume to ChatGPT (o
 
 Because the data is structured, it’s also easy to scale. If you decide to pull content from a database or API in the future, you can adapt the existing format with minimal changes.
 
+### 📸 Profile picture
+In the directory `src/assets` ensure that you replace the `profile_picture.png` file with your own profile picture. The name needs to be the same. 
+
+
 ---
 ## 🚀 Features
 
@@ -74,9 +78,9 @@ npm run deploy:ci
 This runs:
 
 ```json
-"deploy:ci": "gh-pages -d dist -u \"github-actions-bot <support+actions@github.com>\" -r https://x-access-token:${GITHUB_TOKEN}@github.com/{{YOUR_GITHUB_USER_NAME}}/personal-website.git"
+"deploy:ci": "gh-pages -d dist -u \"github-actions-bot <support+actions@github.com>\" -r https://x-access-token:${GITHUB_TOKEN}@github.com/{{YOUR_GITHUB_USER_NAME}}/personal-website-template.git"
 ```
-> IMPORTANT: In your `package.json`, insure that you update `{{YOUR_GITHUB_USER_NAME}}` with your own git user name.
+> IMPORTANT: In your `package.json`, insure that you update `{{YOUR_GITHUB_USER_NAME}}` with your own git user name. If you rename the forked repo, you will need to also update the script to replace `personal-website-template.git` to the new repo name. 
 
 > Note: `${GITHUB_TOKEN}` is automatically provided by GitHub Actions.
 
@@ -95,6 +99,22 @@ This runs:
 ```
 
 Make sure you have proper GitHub authentication configured locally (e.g., via SSH or a GitHub CLI session).
+
+### Pages Setup
+* In your forked github repo, go to `Settings`. 
+* On the left column click on `Pages`.
+* Under `Build and deployment` the source should be `Deploy from branch`.
+* On the `Branch` section, select the `gh-pages` branch and click save.
+
+![alt text](image.png)
+
+After these updates, do a manual deploy from your terminal by running: 
+
+```bash
+npm run deploy
+```
+
+> Note: The main branch is not protected. After your initial deploy, after push to your main branch an automatic deploy will run. 
 
 ---
 
